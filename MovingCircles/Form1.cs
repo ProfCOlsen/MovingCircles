@@ -13,10 +13,10 @@ namespace MovingCircles
     public partial class Form1 : Form
     {
         bool circleDirection = true;
-        int circleX = 0;
-        int circleY = 200;
-        int lastX = 0;
-        int lastY = 200;
+        int circleX = 400;
+        int circleY = 0;
+        int lastX = 400;
+        int lastY = 0;
 
 
         public Form1()
@@ -48,21 +48,21 @@ namespace MovingCircles
 
             //Stop moving right when circle hits edge
             //-50 accounts for width of the circle
-            if (circleX > (this.Size.Width - 70))
+            if (circleY > (this.Size.Height - 100))
             {
                 circleDirection = false;       
             }
-            else if (circleX < 0)
+            else if (circleY < 0)
             {
                 circleDirection = true;
             }
             if (circleDirection)
             {
-                circleX += 10;
+                circleY += 10;
             }
             else
             {
-                circleX -= 10;
+                circleY -= 10;
             }
         }
 
