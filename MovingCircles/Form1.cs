@@ -13,9 +13,9 @@ namespace MovingCircles
     public partial class Form1 : Form
     {
         bool circleDirection = true;
-        int circleX = 400;
+        int circleX = 200;
         int circleY = 0;
-        int lastX = 400;
+        int lastX = 200;
         int lastY = 0;
 
 
