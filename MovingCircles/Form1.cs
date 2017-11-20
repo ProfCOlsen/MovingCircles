@@ -18,6 +18,8 @@ namespace MovingCircles
         int circleY = 0;
         int lastX = 300;
         int lastY = 0;
+        //Add a line from ProfCOlsen
+        string name = "Chris";
 
 
         public Form1()
