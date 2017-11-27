@@ -90,7 +90,9 @@ namespace MovingCircles
         private void button1_Click(object sender, EventArgs e)
         {
             // test event handler
-
+            int x = 0;
+            if (x == 0)
+                x = 4;
         }
     }
 }
