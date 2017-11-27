@@ -90,9 +90,13 @@ namespace MovingCircles
         private void button1_Click(object sender, EventArgs e)
         {
             // test event handler
+            int x = 0;
+            if (x == 0)
+                x = 4;
             int y = 56;
             if (y != 100)
                 MessageBox.Show("y is not 100");
+
         }
     }
 }
