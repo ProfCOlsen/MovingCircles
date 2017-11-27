@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Altaf Ahmad CIS 345 Fall 2017
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -84,6 +85,12 @@ namespace MovingCircles
             formGraphics = this.CreateGraphics();
             formGraphics.FillRectangle(Brushes.WhiteSmoke, new Rectangle(x, y, 60, 60));
             formGraphics.Dispose();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // test event handler
+
         }
     }
 }
