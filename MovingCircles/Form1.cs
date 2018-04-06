@@ -19,6 +19,12 @@ namespace MovingCircles
         int circleY = 0;
         int lastX = 300;
         int lastY = 0;
+        
+        int squareX = 100;
+        int squareY = 0;
+        int lastSqrX = 100;
+        int lastSqrY = 0;
+
         //Add line from ProfCOlsen
         string name = "Chris";
 
