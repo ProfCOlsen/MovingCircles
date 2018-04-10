@@ -20,7 +20,7 @@ namespace MovingCircles
         int lastX = 300;
         int lastY = 0;
         
-        int squareX = 200;  //change on 4/9 by clo
+        int squareX = 200;  //change on 4/10 by clo
         int squareY = 0;
         int lastSqrX = 100;
         int lastSqrY = 0;
