@@ -100,7 +100,7 @@ namespace MovingCircles
             if (x == 0)
                 x = 4;
             int y = 49;
-            if (y != 100)
+            if (y != 105)
                 MessageBox.Show("y is not 100");
 
         }
